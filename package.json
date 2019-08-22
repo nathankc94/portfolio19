@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/nathankc94/portfolio19/issues"
   },
-  "homepage": "https://github.com/nathankc94/portfolio19",
+  "homepage": "https://github.com/nathankc94/portfolio19#readme",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0"
