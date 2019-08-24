@@ -48,9 +48,10 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
   .icons {
+    font-size: 60px;
     margin-top: 1rem;
     a {
-      padding: 0.4rem;
+      // padding: 0.4rem;
       &:hover {
         color: $secondary-color;
         @include easeOut();
@@ -71,7 +72,7 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     "bioimage bio bio"
-    "job1 job2 job3";
+    "job2 job1 job3";
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -97,9 +98,9 @@ main {
 }
 
 .job {
-  background: lighten($primary-color, 5);
+  // background: lighten($primary-color, 5);
   padding: 0.5rem;
-  border: $secondary-color 3px solid;
+  // border: $secondary-color 3px solid;
 }
 
 // Work/Projects
@@ -151,3 +152,10 @@ main {
   height: 60px;
 }
 @import "mobile";
+
+#typed {
+  font-size: 45px;
+}
+.typed-cursor, .typed-cursor--blink {
+  font-size: 45px;
+}

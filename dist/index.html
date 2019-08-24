@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <title>AS Portfolio</title>
   </head>
@@ -26,27 +30,46 @@
             <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="about.html" class="nav-link">About Me</a>
+            <a href="about.html" class="nav-link">Get to know Me</a>
           </li>
           <li class="nav-item">
-            <a href="project.html" class="nav-link">Project</a>
+            <a href="project.html" class="nav-link">My Projects</a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="contact.html" class="nav-link">Get in touch</a>
           </li>
         </ul>
       </nav>
     </header>
     <main id="home">
-        <h1 class="lg-heading">Alongkot<span class="text-secondary"> Sriprom</span> </h1> 
-        <h2 class="sm-heading">Full-Stack Developer</h2>
-        <div class="icons">
-            <a href="#!"><i class="fab fa-linkedin fa-3x"></i></a>
-            <a href="#!"><i class="fab fa-github fa-3x"></i></a>
-            <a href="#!"><i class="fab fa-instagram fa-3x"></i></a>
-        </div>
-        
+   
+      <span id="typed"></span>
+      <h1 class="lg-heading">
+        Alongkot<span class="text-secondary"> Sriprom</span>
+      </h1>
+      <h2 class="sm-heading">Full-Stack Developer</h2>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/sriprom" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a> 
+        <a href="https://github.com/nathankc94" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a> 
+        <a href="https://www.instagram.com/sripom7" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
     </main>
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script>
+      var typed = new Typed("#typed", {
+        strings: [" Hello^200, World!^1000" , "welcome to my page...^1000"],
+        typeSpeed: 50,
+        loop: true,
+        backSpeed: 50,
+        cursorChar: '|',
+      });
+    </script>
   </body>
 </html>

@@ -29,3 +29,7 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+// type.js
+
+
