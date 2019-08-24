@@ -188,6 +188,7 @@ main {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
+    border-radius: 50%;
     width: 100%;
     border: 3px #fff solid; }
     .projects img:hover {
@@ -199,14 +200,17 @@ main {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
-  margin-bottom: 0.3rem; }
+  margin-bottom: 0.3rem;
+  font-size: 20px;
+  float: right; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #7CC6FE;
-    color: set-text-color(#7CC6FE); }
+    background: #c4c4c4; }
 
 .btn-dark {
-  background: black;
-  color: #fff; }
+  background-color: #7CC6FE;
+  color: black;
+  text-align: center; }
 
 .btn-light {
   background: #c4c4c4;

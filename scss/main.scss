@@ -109,7 +109,9 @@ main {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
 
+
   img {
+    border-radius: 50%;
     width: 100%;
     border: 3px #fff solid;
 
@@ -127,22 +129,29 @@ main {
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
+  font-size: 20px;
+  float: right;
+  
   &:hover {
     background: $secondary-color;
-    color: set-text-color($secondary-color);
+    background: lighten($primary-color, 50);
   }
 }
 
 .btn-dark {
   @extend .btn;
-  background: darken($primary-color, 50);
-  color: #fff;
+  
+  background-color: $secondary-color;
+  color: black;
+  text-align: center;
+
 }
 
 .btn-light {
   @extend .btn;
   background: lighten($primary-color, 50);
   color: #333;
+
 }
 #main-footer {
   text-align: center;
