@@ -54,7 +54,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(../image/portrait.jpeg);
+      background: url(../image/nslogo.png);
       opacity: 10000;
       border-radius: 50%;
       border: solid 3px #7CC6FE; }
@@ -188,13 +188,18 @@ main {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
-    border-radius: 50%;
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #fff solid;
+    width: 50px;
+    height: 200px; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #7CC6FE;
       transition: all 0.5s ease-out; }
+
+.content {
+  background-color: rgba(73, 73, 73, 0.5);
+  padding: 10px; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -222,6 +227,12 @@ main {
   background: #2b2b2b;
   color: white;
   height: 60px; }
+
+#typed {
+  font-size: 45px; }
+
+.typed-cursor, .typed-cursor--blink {
+  font-size: 45px; }
 
 @media screen and (min-width: 500px) {
   .projects {
@@ -270,10 +281,8 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; } }
-
-#typed {
-  font-size: 45px; }
-
-.typed-cursor, .typed-cursor--blink {
-  font-size: 45px; }
+    grid-template-columns: 1fr; }
+  #typed {
+    font-size: 20px; }
+  .typed-cursor, .typed-cursor--blink {
+    font-size: 20px; } }
