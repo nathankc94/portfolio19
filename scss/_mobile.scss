@@ -77,4 +77,12 @@ main {
   .projects {
     grid-template-columns: 1fr;
   }
+
+  #typed {
+    font-size: 20px;
+  }
+  .typed-cursor, .typed-cursor--blink {
+    font-size: 20px;
+  }
+
 }
